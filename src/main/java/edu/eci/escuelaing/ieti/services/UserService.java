@@ -3,13 +3,13 @@ import edu.eci.escuelaing.ieti.model.User;
 import java.util.List;
 
 public interface UserService {
-	List<User> getAll();
+	public List<User> getAll();
 	    
-	    User getById(String userId);
+	public User getById(String userId);
 	    
-	    User create(User user);
+	public User create(User user);
 	    
-	    User update(User user);
+	public User update(User user);
 	    
-	    void remove(String userId);
+	public void remove(String userId);
 }
